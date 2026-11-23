@@ -7,10 +7,16 @@ header {
     padding: 14px;
 }
 
+footer {
+    background-color: aqua;
+    padding: 10px;
+}
+
 .corpo {
     display: flex;
     flex-direction: row;
     flex: 1;
+    height:100vh;
     
 }
 
@@ -18,9 +24,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 25%;
-    height:100vh;
-    align-items: center;
+    width: 15%;
+    text-align: left;
     background-color: rgb(230, 252, 255);
 }
 
@@ -37,8 +42,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 25%;
-    height:100vh;
+    width: 15%;
     background-color: rgb(230, 252, 255);
     align-items: center;
 }
