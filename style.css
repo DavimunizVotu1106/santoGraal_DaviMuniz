@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: aqua;
+    padding: 14px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    height:100vh;
+    align-items: center;
+    background-color: rgb(230, 252, 255);
+}
+
+.centro {
+    display: flex;
+    flex: 1;
+    background-color: rgb(238, 252, 255);
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    height:100vh;
+    background-color: rgb(230, 252, 255);
+    align-items: center;
+}
